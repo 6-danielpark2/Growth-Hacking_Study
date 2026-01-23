@@ -5,7 +5,12 @@
 
 UTM 파라미터(UTM parameter): 온라인 유입 경로를 확인하기 위해 URL 뒤에 추가하는 파라미터로, 소스(utm_source), 매체(utm_medium), 캠페인(utm_campaign), 검색어(utm_term), 콘텐츠(utm_content)로 구성
 
+![alt text](image.png)
+
 어트리뷰션(Attribution): 사용자가 앱을 설치하고 사용하는 데 어떤 채널이 기여했는지 식별하여 마케팅 성과를 판단하는 과정
+
+![alt text](image-1.png)
+![alt text](image-2.png)
 
 어트리뷰션 윈도우(Attribution window / 룩백 윈도우): 기여 이벤트 발생 후 얼마만큼의 기간 내에 발생한 전환을 기여로 인정할 것인지에 대한 기준
 
@@ -13,13 +18,23 @@ UTM 파라미터(UTM parameter): 온라인 유입 경로를 확인하기 위해 
 
 뷰-스루(View-through): 광고 조회(노출)를 통해 발생하는 기여
 
+![alt text](image-3.png)
+
 싱글 터치 어트리뷰션 모델: 여러 접점 중 하나만 인정하는 모델, 퍼스트 클릭(첫 번째 매체 100% 인정)과 라스트 클릭(마지막 매체 100% 인정)
 
+![alt text](image-4.png)
+
 멀티 터치 어트리뷰션 모델: 여러 접점에 기여도를 분배하는 모델로, 모든 매체에 동일 가중치를 주는 선형 모델, 시간에 따라 가중치를 높이는 타임 디케이 모델, 처음과 끝에 높은 가중치를 주는 U자형 모델 등
+
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
 
 딥 링크(Deep Link): 모바일 앱 내 특정 화면으로 바로 이동하게 하는 링크
 
 디퍼드 딥 링크(Deferred Deep Link): 앱 미설치자가 링크 클릭 시, 앱 설치 후 실행했을 때 미리 정의된 특정 화면으로 이동시키는 기술
+
+![alt text](image-8.png)
 
 웹에서는 UTM 파라미터로 유입 경로를 파악할 수 있지만, 앱은 앱스토어를 거치며 파라미터가 유실되므로 별도의 어트리뷰션 서비스(Appsflyer, Adjust 등) 활용이 필수.
 단순히 오가닉(Organic) 유입을 늘리는 것보다 유입 경로를 알 수 없는 미식별(Unknown) 트래픽의 비중을 줄여 정확한 데이터를 확보하는 것이 고객 유치의 핵심
